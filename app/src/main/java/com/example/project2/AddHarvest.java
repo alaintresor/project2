@@ -12,8 +12,6 @@ public class AddHarvest extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_harvest);
-        TextView textView=(TextView)findViewById(R.id.textView);
-        final String data = getIntent().getStringExtra("data");
-        textView.setText(data);
+
     }
 }

@@ -27,14 +27,14 @@ public class Manuel extends AppCompatActivity implements AdapterView.OnItemSelec
         spinner.setAdapter(adapter);
         spinner.setOnItemSelectedListener(this);
 
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent=new Intent(getApplicationContext(),AddHarvest.class);
-                intent.putExtra("data",String.valueOf(spinner.getSelectedItem()));
-                startActivity(intent);
-            }
-        });
+//        button.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent=new Intent(getApplicationContext(),AddHarvest.class);
+//                intent.putExtra("data",String.valueOf(spinner.getSelectedItem()));
+//                startActivity(intent);
+//            }
+//        });
     }
 
     @Override

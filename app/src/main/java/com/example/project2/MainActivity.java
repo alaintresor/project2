@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         manuel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(getApplicationContext(),Manuel.class);
+                Intent intent=new Intent(getApplicationContext(), Apply.class);
                 startActivity(intent);
             }
         });

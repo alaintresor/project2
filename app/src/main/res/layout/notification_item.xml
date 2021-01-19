@@ -29,7 +29,7 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/ic_notification" />
+                app:srcCompat="@drawable/ic_notifications" />
 
             <TextView
                 android:id="@+id/subject"

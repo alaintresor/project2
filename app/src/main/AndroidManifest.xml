@@ -10,11 +10,17 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".Single_notification"></activity>
-        <activity android:name=".Manuel" />
+        <activity android:name=".Apply" />
         <activity android:name=".AddHarvest" />
         <activity android:name=".MyHarvest" />
         <activity android:name=".Notification" />
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".Login"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".start"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

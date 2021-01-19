@@ -2,7 +2,6 @@ package com.example.project2;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -11,16 +10,13 @@ import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.Toast;
 
-import java.util.ArrayList;
-import java.util.List;
-
-public class Manuel extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
+public class Apply extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_manuel);
-        final Spinner spinner = (Spinner) findViewById(R.id.spinner1);
+        setContentView(R.layout.activity_apply);
+        final Spinner spinner = (Spinner) findViewById(R.id.seedSpinner);
         Button button=(Button)findViewById(R.id.button);
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.numbers, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);

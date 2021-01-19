@@ -44,8 +44,8 @@
 
                     <ImageView
                         android:id="@+id/imageView1"
-                        android:layout_width="100dp"
-                        android:layout_height="90dp"
+                        android:layout_width="130dp"
+                        android:layout_height="127dp"
                         android:layout_marginStart="16dp"
                         android:layout_marginLeft="16dp"
                         android:layout_marginTop="40dp"
@@ -56,7 +56,7 @@
                         app:layout_constraintHorizontal_bias="0.413"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@android:drawable/ic_dialog_email" />
+                        app:srcCompat="@drawable/ic_notifications" />
 
                     <TextView
                         android:id="@+id/textView1"
@@ -100,8 +100,8 @@
 
                     <ImageView
                         android:id="@+id/imageView2"
-                        android:layout_width="100dp"
-                        android:layout_height="90dp"
+                        android:layout_width="130dp"
+                        android:layout_height="127dp"
                         android:layout_marginStart="16dp"
                         android:layout_marginLeft="16dp"
                         android:layout_marginTop="40dp"
@@ -112,7 +112,7 @@
                         app:layout_constraintHorizontal_bias="0.413"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/a2" />
+                        app:srcCompat="@drawable/fertilizer" />
 
                     <TextView
                         android:id="@+id/textView2"
@@ -124,7 +124,7 @@
                         android:layout_marginEnd="69dp"
                         android:layout_marginRight="69dp"
                         android:layout_marginBottom="18dp"
-                        android:text="Apply For Manuel"
+                        android:text="Apply For Fertilizer"
                         android:textColor="#F44336"
                         android:textSize="18sp"
                         android:textStyle="bold"
@@ -156,18 +156,18 @@
 
                     <ImageView
                         android:id="@+id/imageView3"
-                        android:layout_width="158dp"
-                        android:layout_height="126dp"
+                        android:layout_width="130dp"
+                        android:layout_height="127dp"
                         android:layout_marginStart="16dp"
                         android:layout_marginLeft="16dp"
-                        android:layout_marginTop="16dp"
+                        android:layout_marginTop="40dp"
                         android:layout_marginEnd="7dp"
                         android:layout_marginRight="7dp"
                         android:scaleType="centerCrop"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/a1" />
+                        app:srcCompat="@drawable/harvest" />
 
                     <TextView
                         android:id="@+id/textView3"
@@ -211,18 +211,18 @@
 
                     <ImageView
                         android:id="@+id/imageView4"
-                        android:layout_width="158dp"
-                        android:layout_height="126dp"
-                        android:layout_marginStart="16dp"
-                        android:layout_marginLeft="16dp"
-                        android:layout_marginTop="16dp"
-                        android:layout_marginEnd="7dp"
-                        android:layout_marginRight="7dp"
+                        android:layout_width="130dp"
+                        android:layout_height="127dp"
+                        android:layout_marginStart="7dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="40dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginRight="16dp"
                         android:scaleType="centerCrop"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/a1" />
+                        app:srcCompat="@drawable/products" />
 
                     <TextView
                         android:id="@+id/textView4"

@@ -12,19 +12,24 @@ public class MainActivity extends AppCompatActivity {
     CardView manuel;
     CardView AddHarvest;
     CardView MyHarvest;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        notification=findViewById(R.id.notification);
-        manuel=findViewById(R.id.manuel);
-        AddHarvest=findViewById(R.id.addHarvest);
-        MyHarvest=findViewById(R.id.harvest);
+        notification = findViewById(R.id.notification);
+        manuel = findViewById(R.id.manuel);
+        AddHarvest = findViewById(R.id.addHarvest);
+        MyHarvest = findViewById(R.id.harvest);
+
+        //get user ID
+        final String userId = getIntent().getStringExtra("userId");
 
         notification.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(getApplicationContext(),Notification.class);
+                Intent intent = new Intent(getApplicationContext(), Notification.class);
+                intent.putExtra("userId", userId);
                 startActivity(intent);
             }
         });
@@ -32,7 +37,8 @@ public class MainActivity extends AppCompatActivity {
         manuel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(getApplicationContext(), Apply.class);
+                Intent intent = new Intent(getApplicationContext(), Apply.class);
+                intent.putExtra("userId", userId);
                 startActivity(intent);
             }
         });
@@ -40,7 +46,8 @@ public class MainActivity extends AppCompatActivity {
         MyHarvest.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(getApplicationContext(),MyHarvest.class);
+                Intent intent = new Intent(getApplicationContext(), MyHarvest.class);
+                intent.putExtra("userId", userId);
                 startActivity(intent);
             }
         });
@@ -48,7 +55,8 @@ public class MainActivity extends AppCompatActivity {
         AddHarvest.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(getApplicationContext(),AddHarvest.class);
+                Intent intent = new Intent(getApplicationContext(), AddHarvest.class);
+                intent.putExtra("userId", userId);
                 startActivity(intent);
             }
         });

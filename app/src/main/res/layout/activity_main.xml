@@ -4,12 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/ok"
     tools:context=".MainActivity">
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#EDEDED"
+        android:background="@drawable/ok"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -21,8 +22,8 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:padding="10dp"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:padding="10dp">
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/notification"
@@ -69,7 +70,7 @@
                         android:layout_marginRight="69dp"
                         android:layout_marginBottom="18dp"
                         android:text="Notifications"
-                        android:textColor="#F44336"
+                        android:textColor="#39b54a"
                         android:textSize="18sp"
                         android:textStyle="bold"
                         app:layout_constraintBottom_toBottomOf="parent"
@@ -125,7 +126,7 @@
                         android:layout_marginRight="69dp"
                         android:layout_marginBottom="18dp"
                         android:text="Apply For Fertilizer"
-                        android:textColor="#F44336"
+                        android:textColor="#39b54a"
                         android:textSize="18sp"
                         android:textStyle="bold"
                         app:layout_constraintBottom_toBottomOf="parent"
@@ -180,7 +181,7 @@
                         android:layout_marginRight="69dp"
                         android:layout_marginBottom="18dp"
                         android:text="Decorate Harvest"
-                        android:textColor="#F44336"
+                        android:textColor="#39b54a"
                         android:textSize="18sp"
                         android:textStyle="bold"
                         app:layout_constraintBottom_toBottomOf="parent"
@@ -235,7 +236,7 @@
                         android:layout_marginRight="69dp"
                         android:layout_marginBottom="18dp"
                         android:text="My harvest"
-                        android:textColor="#F44336"
+                        android:textColor="#39b54a"
                         android:textSize="18sp"
                         android:textStyle="bold"
                         app:layout_constraintBottom_toBottomOf="parent"

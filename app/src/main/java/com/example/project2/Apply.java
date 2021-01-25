@@ -241,7 +241,7 @@ public class Apply extends AppCompatActivity {
                 final String pesticide = String.valueOf(pesticideSpinner.getSelectedItem());
                 final String fertilizer = String.valueOf(fertilizerSpinner.getSelectedItem());
 
-                if(!seedQty.equals("") && !pesticideQty.equals("") && !fertilizerQty.equals("") && !pesticide.equals("") && !seed.equals("") && !fertilizer.equals("") ) {
+                if (!seedQty.equals("") && !pesticideQty.equals("") && !fertilizerQty.equals("") && !pesticide.equals("Select pesticide") && !seed.equals("Select seed") && !fertilizer.equals("Select fertilizer")) {
                     handler.post(new Runnable() {
                         @Override
                         public void run() {
@@ -291,24 +291,11 @@ public class Apply extends AppCompatActivity {
                         //End Write and Read data with URL
 
                     });
-                }
-                else
-                {
-                    Toast.makeText(getApplicationContext(),"All field are required",Toast.LENGTH_LONG).show();
+                } else {
+                    Toast.makeText(getApplicationContext(), "All field are required", Toast.LENGTH_LONG).show();
                 }
             }
         });
 
     }
-//
-//    @Override
-//    public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-//        String text = parent.getItemAtPosition(position).toString();
-//        Toast.makeText(parent.getContext(), "text", Toast.LENGTH_SHORT).show();
-//    }
-//
-//    @Override
-//    public void onNothingSelected(AdapterView<?> parent) {
-//
-//    }
 }
